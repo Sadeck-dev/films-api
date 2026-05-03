@@ -1,0 +1,43 @@
+POST http://127.0.0.1:8000/films/
+Content-Type: application/json
+
+{
+  "titre": "Fast and Furious",
+  "annee": 1800,
+  "note": 8.1,
+  "genres": [
+    "action",
+    "crime"
+  ],
+  "realisateur": {
+    "nom": "Dominic Pucell",
+    "nationalite": "americaine"
+  },
+  "image_url": "https://upload.wikimedia.org/wikipedia/en/6/6d/Oldboykoreanposter.jpg"
+}
+
+###
+GET http://127.0.0.1:8000/films
+
+###
+PUT http://127.0.0.1:8000/films/0
+Content-Type: application/json
+
+{
+  "titre": "Le monde des Narnias",
+  "annee": 2016,
+  "note": 9.1,
+  "genres": [
+    "action",
+    "drame"
+  ],
+  "realisateur": {
+    "nom": "Mr LeRealisateur",
+    "nationalite": "XNationaliy"
+  },
+  "image_url": "https://upload.wikimedia.org/wikipedia/en/b/bc/Interstellar_film_poster.jpg",
+  "id": 5
+}
+
+###
+GET http://127.0.0.1:8000/films/12
