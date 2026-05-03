@@ -6,7 +6,7 @@ API REST construite avec FastAPI pour gérer un catalogue de films.
 
 ```bash
 # 1. Cloner le repo
-git clone https://github.com/ton-username/films-api.git
+git clone https://github.com/Sadeck-dev/films-api.git
 cd films-api
 
 # 2. Créer un environnement virtuel
